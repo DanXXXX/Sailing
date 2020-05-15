@@ -1,0 +1,52 @@
+
+// Définitions de mes couleurs 
+$yellow: #FFEC00;
+$black: rgb(28, 29, 31);
+$white: #F6F7F9;
+$red: rgb(201, 86, 86);
+$bleuFonce:  #123456;
+$bleuVif: #55ddff;
+$bleucontraste: #123789;
+$grisClair: #ccc;
+$grisFonce: #666;
+
+// Font-size
+$default-font-size: 16px;
+$medium-font-size: 18px;
+$large-font-size: 25px;
+
+
+// Breakpoints for responsive
+$breakpoint-small: 500px;
+$breakpoint-medium: 800px;
+$breakpoint-large: 1000px;
+
+
+// Gestions Font-family
+
+$font-family: 'Montserrat', sans-serif;
+$font-family-fallback: 'Helvetica', Arial, sans-serif;
+/*
+$font-family-title: ;
+$font-family-label: ;
+$font-family-namesite: ;
+$font-family-quotes: ;
+*/
+
+
+// Attributions des couleurs
+// Colors
+$main-color: $yellow;
+$text-color: $black;
+$bg-color: $white;
+//$color-text-alt : #;
+//$button-color: #;
+//$color-bg-first: #;
+//$color-bg-second: #;
+//$color-footer: #;
+//$color-white: #;
+//$color-light-text: #;
+
+
+// Icons
+$fa-font-path: '~font-awesome/fonts';

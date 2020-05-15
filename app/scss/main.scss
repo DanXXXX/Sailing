@@ -1,0 +1,46 @@
+// 1. Inclusions de nos abstracts
+@import
+    'abstract/variables';
+
+// 2. Inclusion de nos vendors
+/*
+    Ici, nous n'avons pas de dossier "vendors".
+
+
+
+
+*/
+
+$fa-font-path: '~font-awesome/fonts';
+
+@import
+    '~reset-css/sass/reset',
+    '~font-awesome/scss/font-awesome';
+
+
+
+// 3. Import de la base
+@import
+    'base/base';
+
+// 4. Import des layout
+@import
+    'layout/footer',
+    'layout/header',
+    'layout/main',
+    'layout/sidebar';
+
+// 5. Import des components
+@import
+    'components/action-button.scss',
+    'components/archive',
+    'components/copyright',
+    'components/logo',
+    'components/main-nav',
+    'components/post',
+    'components/search',
+    'components/sign',
+    'components/social-nav';
+    
+@import
+    'shame';
