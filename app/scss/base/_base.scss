@@ -1,23 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
+// https://developper.mozilla.org/fr/docs/Web/CSS/box-sizing
+* {
+    
+    box-sizing: border-box; 
+}
+
+
 html {
     font-size: $default-font-size;
     font-size: 62.5%;
-}
-
-body {
-    
-    box-sizing: border-box; 
-    border: 1.5rem solid $main-color;
-    background-color: $bg-color;
-    padding: 2.5rem 2rem 1.5rem 3rem;
-}
-
-body,
-input {
-
+    color: $text-color;
     font-family: $font-family, $font-family-fallback;
 }
+
+/*body {
+    
+   // border: 1.5rem solid $main-color;
+   // background-color: $bg-color;
+   // padding: 2.5rem 2rem 1.5rem 3rem;
+}
+*/
+
+
 
 img {
 	max-width: 100%;
@@ -28,7 +33,7 @@ img {
 
 a {
     text-decoration: none;
-    color: $text-color;
+    color: $alt-color;
     cursor: pointer;
 }
 

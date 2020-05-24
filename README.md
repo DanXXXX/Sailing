@@ -2,7 +2,7 @@
 
 ## Réutilisation
 
-1. Cloner le repo `git clone git@github.com:O-clock-Quantum/WP-Pattern-Webpack-christopheOclock.git`
+1. Cloner le repo `git clone git@github.com:O-clock-Quantum/WP-Pattern-Webpack-christophe.git`
 2. Renommer le dossier cloné `mv WP-Pattern-Webpack-christopheOclock <nomduprojet>`
 3. Se rendre dans le dossier `cd <nomduprojet>`
 4. Supprimer le dossier `.git` afin de repartir d'un repo tout neuf `sudo rm -R .git`

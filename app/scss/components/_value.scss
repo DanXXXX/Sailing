@@ -1,0 +1,16 @@
+.value {
+
+    text-align: center;
+
+    &__tilte {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+    }
+
+    &__content {
+        color: darken($title-color, 35%);
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-top: 0.3rem;
+    }
+}

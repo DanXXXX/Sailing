@@ -1,0 +1,10 @@
+.intro {
+    min-height: 100vh;
+    background-image: url(https://source.unsplash.com/1000x900/weekly?ocean);
+    background-size: cover;
+    background-position: center bottom;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}

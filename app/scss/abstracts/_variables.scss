@@ -1,12 +1,12 @@
 
 // Définitions de mes couleurs 
-$yellow: #FFEC00;
+//$yellow: #FFEC00;
 $black: rgb(28, 29, 31);
 $white: #F6F7F9;
 $red: rgb(201, 86, 86);
 $bleuFonce:  #123456;
 $bleuVif: #55ddff;
-$bleucontraste: #123789;
+$bleuContraste: #123789;
 $grisClair: #ccc;
 $grisFonce: #666;
 
@@ -24,7 +24,7 @@ $breakpoint-large: 1000px;
 
 // Gestions Font-family
 
-$font-family: 'Montserrat', sans-serif;
+$font-family: 'Open Sans', sans-serif;
 $font-family-fallback: 'Helvetica', Arial, sans-serif;
 /*
 $font-family-title: ;
@@ -36,16 +36,23 @@ $font-family-quotes: ;
 
 // Attributions des couleurs
 // Colors
-$main-color: $yellow;
-$text-color: $black;
-$bg-color: $white;
-//$color-text-alt : #;
+$main-color: $bleuFonce;
+$alt-color: $bleuVif;
+$text-color: $bleuContraste;
+$bg-color: $grisClair;
+$title-color: $grisFonce;
 //$button-color: #;
 //$color-bg-first: #;
 //$color-bg-second: #;
 //$color-footer: #;
 //$color-white: #;
 //$color-light-text: #;
+
+$sidebar-width: 30%;
+
+$transition-fast: 0.3s;
+$transition-medium: 0.5s;
+$transition-slow: 0.7s;
 
 
 // Icons

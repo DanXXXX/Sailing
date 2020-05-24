@@ -1,0 +1,22 @@
+.navigation {
+
+
+    &__item {
+        
+        margin-top: 2rem;
+
+        a {
+            text-transform: uppercase;
+            border-bottom: 2px solid;
+            border-image: linear-gradient(to right, $main-color, $alt-color) 10;
+            display: block;
+            opacity: 0.4;
+            transition: all $transition-medium;
+            padding-bottom: 0.5rem;
+
+            &:hover, &.active {
+                opacity: 1;
+            }
+        }
+    }
+}

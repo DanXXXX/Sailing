@@ -1,0 +1,10 @@
+.sidebar {
+    background-color: $main-color;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $sidebar-width;
+    text-align: center;
+    padding: 2rem;
+}

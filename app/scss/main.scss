@@ -1,6 +1,6 @@
 // 1. Inclusions de nos abstracts
 @import
-    'abstract/variables';
+    'abstracts/variables';
 
 // 2. Inclusion de nos vendors
 /*
@@ -25,22 +25,20 @@ $fa-font-path: '~font-awesome/fonts';
 
 // 4. Import des layout
 @import
-    'layout/footer',
-    'layout/header',
+    'layout/articles',
+    'layout/intro',
     'layout/main',
-    'layout/sidebar';
+    'layout/navigation',
+    'layout/sidebar',
+    'layout/values';
 
 // 5. Import des components
 @import
-    'components/action-button.scss',
-    'components/archive',
-    'components/copyright',
+    'components/article',
+    'components/button',
+    'components/header',
     'components/logo',
-    'components/main-nav',
-    'components/post',
-    'components/search',
-    'components/sign',
-    'components/social-nav';
+    'components/value';
     
 @import
     'shame';
